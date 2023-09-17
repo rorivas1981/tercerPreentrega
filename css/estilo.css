@@ -1,0 +1,91 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+/* Header */
+
+.miLogo {
+    width: 150px;
+}
+
+.miFondo {
+    background-color: white;
+}
+
+header {
+    border-top: solid 7px orangered;
+    border-bottom: solid 7px orangered;       
+}
+
+.miLink:hover {
+    background-color: orangered;
+    color: white;
+}
+
+/* Productos */
+
+.tituloParlantes {
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.nombreProducto {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.producto {
+    width: 100%;
+    height: auto;
+}
+
+.colorBtn {
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.colorBtn:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.colorFooter {
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.colorFooter:hover {
+    background-color: black;
+    color: orangered;
+}
+
+footer {
+    background-color: orangered;
+}
+
+.colorFooter2 {
+    background-color: orangered;
+    color: white;
+}
+
+.btnContacto {
+    background-color: orangered;
+    color: white;
+}
+
+.btnContacto:hover {
+    background-color: black;
+    color: orangered;
+}

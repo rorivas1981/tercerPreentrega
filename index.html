@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JBL Lovers</title>
+    <!-- BS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- CSS Personal-->
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body class="container-fluid">
+
+    <header class="navbar navbar-expand-lg miFondo">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="miLogo" src="img/Logo.jpg" alt="Imagen de Logo de JBL">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item miLink">
+                        <a class="nav-link miLink" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link miLink" href="parlantes.html">Parlantes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link miLink" href="auriculares.html">Auriculares</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link miLink" href="gaming.html">Gaming</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link miLink" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/Banner1.webp" class="d-block w-100" alt="Imagen Banner1">
+            </div>
+            <div class="carousel-item">
+                <img src="img/Banner2.webp" class="d-block w-100" alt="Imagen Banner2">
+            </div>
+            <div class="carousel-item">
+                <img src="img/Banner3.webp" class="d-block w-100" alt="Imagen Banner3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="tituloParlantes">
+        <h2>Home</h2>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="text-center">¿Quienes somos?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sunt quaerat, reprehenderit veritatis
+                    culpa distinctio in porro dignissimos suscipit ad temporibus laboriosam magni asperiores pariatur
+                    nemo officiis possimus atque alias.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <h1 class="text-center">Toda la fiesta!!!</h1>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe width=" 560" height="315" src="https://www.youtube.com/embed/i-00mq5V2qo"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen=""></iframe></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 colorFooter">Home</a>
+            </li>
+            <li class="nav-item"><a href="parlantes.html" class="nav-link px-2 colorFooter">Parlantes</a>
+            </li>
+            <li class="nav-item"><a href="auriculares.html" class="nav-link px-2 colorFooter">Auriculares</a>
+            </li>
+            <li class="nav-item"><a href="gaming.html" class="nav-link px-2 colorFooter">Gaming</a></li>
+            <li class="nav-item"><a href="contacto.html" class="nav-link px-2 colorFooter">Contacto</a></li>
+        </ul>
+        <p class="text-center colorFooter2">© 2023 JBL LOVERS</p>
+    </footer>
+
+    <!-- JS BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
