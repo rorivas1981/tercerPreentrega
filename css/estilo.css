@@ -1,91 +1,157 @@
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* Contiene responsive del Index*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.embed-responsive-16by9 {
+  position: relative;
+  padding-bottom: 50%;
+}
+.embed-responsive-16by9 > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.grid-item {
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-}
-
-/* Header */
-
-.miLogo {
-    width: 150px;
-}
-
-.miFondo {
-    background-color: white;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
 }
 
 header {
-    border-top: solid 7px orangered;
-    border-bottom: solid 7px orangered;       
+  border-top: solid 7px orangered;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: white;
+}
+
+.miLogo {
+  width: 200px;
+}
+
+.miLogo2 {
+  width: 500px;
 }
 
 .miLink:hover {
-    background-color: orangered;
-    color: white;
-}
-
-/* Productos */
-
-.tituloParlantes {
-    background-color: orangered;
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 10px;
-}
-
-.nombreProducto {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.producto {
-    width: 100%;
-    height: auto;
-}
-
-.colorBtn {
-    background-color: orangered;
-    color: white;
-    font-size: 20px;
-    text-transform: uppercase;
-}
-
-.colorBtn:hover {
-    background-color: black;
-    color: white;
-}
-
-
-.colorFooter {
-    background-color: orangered;
-    color: white;
-    font-size: 20px;
-    text-transform: uppercase;
-}
-
-.colorFooter:hover {
-    background-color: black;
-    color: orangered;
+  background-color: orangered;
+  color: white;
+  border-radius: 10px;
 }
 
 footer {
-    background-color: orangered;
+  background-color: orangered;
+  color: white;
 }
 
-.colorFooter2 {
-    background-color: orangered;
-    color: white;
+.botonFooter {
+  background-color: orangered;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.botonFooter:hover {
+  background-color: white;
+  color: orangered;
+  border-radius: 10px;
+}
+
+.tituloProducto {
+  margin-top: 20px;
+  background-color: orangered;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.nombreProducto {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.colorBtn {
+  background-color: orangered;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.colorBtn:hover {
+  background-color: black;
+  color: white;
 }
 
 .btnContacto {
-    background-color: orangered;
-    color: white;
+  background-color: orangered;
+  color: white;
 }
 
 .btnContacto:hover {
-    background-color: black;
-    color: orangered;
+  background-color: black;
+  color: white;
 }
+
+.tituloProducto {
+  margin-top: 20px;
+  background-color: orangered;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.nombreProducto {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.producto {
+  width: 100%;
+  height: auto;
+}
+
+.colorBtn {
+  background-color: orangered;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.colorBtn:hover {
+  background-color: black;
+  color: white;
+}
+
+/*# sourceMappingURL=estilo.css.map */

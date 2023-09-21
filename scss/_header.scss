@@ -1,0 +1,20 @@
+header {
+    border-top: solid 7px $color-naranja;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: $color-blanco;
+}
+
+.miLogo {
+    width: 200px;
+}
+
+.miLogo2 {
+    width: 500px;
+}
+
+.miLink:hover {
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+}
