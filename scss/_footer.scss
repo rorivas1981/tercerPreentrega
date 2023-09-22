@@ -1,11 +1,14 @@
-footer {
+@mixin back {
     background-color: $color-naranja;
     color: $color-blanco;
 }
 
+footer {
+    @include back;
+}
+
 .botonFooter {
-    background-color: $color-naranja;
-    color: $color-blanco;
+    @include back;
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
